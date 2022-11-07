@@ -5,5 +5,5 @@ Add-Migration InitialCreate
 Update-database
 
 OR for CLI:
-add-migration InitialCreate
-update-database
+dotnet ef migrations add InitialCreate
+dotnet ef database update
