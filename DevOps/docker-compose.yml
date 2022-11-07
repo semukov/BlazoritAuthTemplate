@@ -1,0 +1,22 @@
+version: '3'
+services:
+  blazorit_postgresserver:
+    container_name: blazorit-postgresql
+    image: 'postgres:14.1'
+    restart: always
+    ports:
+      - '5432:5432' #change your extern port *****:5432
+    environment:
+      - POSTGRES_PASSWORD=your_pass #change your password
+    volumes:
+      -  /home/user_name/blazorit/docker-volumes/pgdata:/var/lib/postgresql/data #you can change host volume
+    # networks:
+    #   - blazorit-network
+
+## volumes:
+##   pgdata: 
+
+
+# networks:
+#   blazorit-network:
+#     driver: bridge
