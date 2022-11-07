@@ -1,0 +1,9 @@
+Commands for create migration and update database
+
+IN VS PMC:
+Add-Migration InitialCreate
+Update-database
+
+OR for CLI:
+add-migration InitialCreate
+update-database
