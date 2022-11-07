@@ -20,4 +20,4 @@ FileText for /Blazorit/Server/appsettings.json:
   "AllowedHosts": "*"
 }
 ```
-You need change DefaultConnection for your Database.
+You have to change DefaultConnection string for your Database. Also, you can change SecurityKey in this file.
