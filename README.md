@@ -1,7 +1,7 @@
 # BlazoritAuthTemplate 
 ## Blazor template for authentication and authorization via PostgreSQL DB or SQL Server
 
-### At the beginning, you need add file "appsettings.json" in this template solution in folder /Blazorit/Server/appsettings.json.
+#### At the beginning, you need add file "appsettings.json" in this template solution in folder /Blazorit/Server/appsettings.json.
 FileText for /Blazorit/Server/appsettings.json:
 
 {
